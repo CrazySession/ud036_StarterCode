@@ -10,6 +10,13 @@ class Movies(Video):
     def __init__(
             self, title, durration, storyline,
             poster_image_url, trailer_youtube_url):
+        '''
+        :param title: string
+        :param durration: string
+        :param storyline: string
+        :param poster_image_url: string 
+        :param trailer_youtube_url: string
+        '''
         Video.__init__(self, title, durration)
         self.storyline = storyline
         self.poster_image_url = poster_image_url

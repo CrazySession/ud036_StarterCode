@@ -6,6 +6,9 @@ class Video():
               "please use the entertainment_center.py file")
 
     def __init__(self, title, durration):
-        print("Video Constructor called")
+        '''
+        :param title: string
+        :param durration: string
+        '''
         self.title = title
         self.durration = durration
