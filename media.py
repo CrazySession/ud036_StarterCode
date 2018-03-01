@@ -14,7 +14,7 @@ class Movies(Video):
         :param title: string
         :param durration: string
         :param storyline: string
-        :param poster_image_url: string 
+        :param poster_image_url: string
         :param trailer_youtube_url: string
         '''
         Video.__init__(self, title, durration)
