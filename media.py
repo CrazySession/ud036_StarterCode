@@ -1,7 +1,7 @@
 from video import Video
 
 class Movies(Video):
-    '''Main class to create new movies'''
+    '''Main class as template to create new movies'''
     if __name__ == "__main__":
         print("This shouldn´t be run as main program "
               "please use the entertainment_center.py file")

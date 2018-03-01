@@ -6,6 +6,8 @@ with help of the media.Movie Class'''
 if __name__ == "__main__":
     print("Thanks for using this program")
 
+# Movie creation with media.py as template
+
 toy_story = media.Movies("Toy Story",
                         "81 min",
                         "A Story of a boy and his toys that come to life",
@@ -37,7 +39,8 @@ hitmans_bodyguard = media.Movies("Hitman\'s Bodyguard",
                                "https://assets.cdn.moviepilot.de/files/5150061998ba3e4e30b121d6735dc941d927ca40ead8cc8fdcc52edd7f09/RZ_KillersBodyguard_PosterLaunch_3Cast_Druck_A4.jpg", #NOQA
                                "https://www.youtube.com/watch?v=l_5bGJogDNM")
 
-
+#Array for all the movies to display on the website
 movies = [toy_story, avatar,die_hard_two,kingsman,hitmans_bodyguard]
 
+#command to run the site
 fresh_tomatoes.open_movies_page(movies)
