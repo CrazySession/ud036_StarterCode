@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 class Video():
     '''Parent class where common attributes getting
     stored so further classes can inherit from it'''
